@@ -10,13 +10,12 @@ Simple Hat to measure temperature, humidity, and pressure from a BME280 componen
 
 ## Parts needed
 
-- 1 x Adafruit Feather Huzzah 8266
+- 1 x Wemos D1 Mini
 - 1 x BME280 component
 - 2 x 4.7kΩ resistor
 - 2 x 100nf capacitors
-- 1 x stacking headers kit (both male and female)
 
-You can pick all the items up via this Octopart BOM: [https://octopart.com/bom-tool/ZmIur875](https://octopart.com/bom-tool/ZmIur875). 
+You can pick all the items (except the Wemos D1 Mini board) up via this Octopart BOM: [https://octopart.com/bom-tool/DlyBUFxp](https://octopart.com/bom-tool/DlyBUFxp). You can get the Wemos D1 Mini on [Amazon](https://smile.amazon.com/HiLetgo-Development-ESP8285-Wireless-Internet/dp/B07BK435ZW) or cheaper (but longer delivery time) [AliExpress](https://www.aliexpress.com/item/32659152063.html)
 
 ## Description
 
@@ -27,6 +26,8 @@ Unlike the Adafruit Huzzah ESP8266 that I had used previously, this component do
 *Do note, that the BME280 component is an LGA package, which means to solder it, you will need a reflow oven or hot air station.*
 
 While designing this circuit, I referred to the [Wemos D1 Mini pinout](https://docs.wemos.cc/en/latest/d1/d1_mini.html) document often. 
+
+I imagine this will also work with the Wemos ESP32 version, but I haven't tested it.
  
 ## Schematic
 
