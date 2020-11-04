@@ -47,7 +47,7 @@ I've included the [Gerber files](wemos_d1_bme280_hat_gerber.zip) if you want to 
 
 ## HomeAssistant Example
 
-I've included an [example](esphome.yaml) of how I setup the Adafruit Feather Huzzah ESP8266
+I've included an [example](esphome.yaml) of how I setup the Wemos D1 Mini ESP8266
 
 ![HomeAssistant](screenshots/homeassistant.png)
 
